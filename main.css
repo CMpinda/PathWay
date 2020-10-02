@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Bangers&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap');
+* {
+    color: purple;
+    background-color:rgba(58, 58, 58, 0.897);
+}
+
+h1 {
+    font-size: 60px;
+    font-family: 'Bangers', cursive;
+    text-align: center;
+}
+
+h2 {
+    font-size: 30px;
+    text-align: center;
+}
+
+p {
+    font-size: 15px;
+    font-family: 'Fredoka One', cursive;
+    text-align: center;
+    padding: 10px;
+    align-content: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.container {
+    display: flex;
+    min-height: 30vh;
+    flex-direction: row;
+    justify-content: center;
+   
+    
+}
+
+form {
+     border-style: solid;
+    border-color: white;
+    font-family: 'Patrick Hand', cursive;
+    font-size: 16px;
+    padding: 10px;
+    text-align: center;
+}
+
+.imagecontainer {
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+
+.navigation {
+    display: flex;
+    min-height: 10px;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+
+.buttondesign {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+}
